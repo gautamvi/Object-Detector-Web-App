@@ -1,0 +1,16 @@
+body{
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.button{
+    width: 10%;
+    font-size: 15px;
+}
+
+.heading
+{
+    font-size: 25px;
+    width: 50%;
+}
