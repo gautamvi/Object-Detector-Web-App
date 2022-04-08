@@ -3,7 +3,7 @@ img = "";
 objects = [];
 
 function preload(){
-    img = loadImage("Bed.jpg");
+    img = loadImage("TV.jpg");
 }
 
 function setup(){
@@ -32,9 +32,9 @@ function draw(){
             document.getElementById("status").innerHTML = "Status : Detecting Objects";
             percent = floor(objects[i].confidence * 100);
             text(objects[i].label + " " + percent + "%",objects[i].x+15,objects[i].y+15);
-            fill("#FF0000");
+            fill("#A020F0");
             noFill();
-            stroke("#FF0000");
+            stroke("#A020F0");
             rect(objects[i].x,objects[i].y,objects[i].width,objects[i].height);
         }
     }
